@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link href="jumbotron-narrow.css" rel="stylesheet">
+      <link href="http:/bootstrap-3.ru/dist/css/bootstrap.min.css" rel="stylesheet">
+      <meta charset="utf-8">
+      <title>Заказ питания ученикам "Интеллектуала" - Главная</title>
+   </head>
+   <body>
+      <div class=" container" style="width: 760px;">
+      <div class="header" style="width: 760px;">
+         <nav>
+            <ul class="nav nav-pills pull-right">
+               <li role="presentation" class="active">
+                  <a href="#">Главная</a>
+               </li>
+               <li role="presentation">
+                  <a href="#">Справка</a>
+               </li>
+               <li role="presentation">
+                  <a href="#">Контакты</a>
+               </li>
+               <li role="presentation">
+                  <a href="#">Выход</a>
+               </li>
+            </ul>
+         </nav>
+         <h3 class="text-muted" style="width: 760px;">Заказ пакетов питания </h3>
+         <hr>
+         <br>
+         <h5><%= Name %></h5>
+         <h4>Заказ на<%= OrderForDates %></h4>
+         <h4>Заказ совершается до<%= DeadlineOfOrder %></h4>
+      </div>
+      <div class=" container" style="width: 760px;" >
+         <div class="header" style="width: 760px;" >
+            <nav>
+               <ul class="nav nav-pills ">
+                  <li role="presentation" >
+                     <a href="#">Понедельник</a>
+                  </li>
+                  <li role="presentation">
+                     <a href="#">Вторник</a>
+                  </li>
+                  <li role="presentation">
+                     <a href="#">Среда</a>
+                  </li>
+                  <li role="presentation">
+                     <a href="#">Четверг</a>
+                  </li>
+                  <li role="presentation">
+                     <a href="#">Пятница</a>
+                  </li>
+                  <li role="presentation"class="active">
+                     <a href="#">Суббота</a>
+                  </li>
+                  <li role="presentation">
+                     <a href="#">Заказать на неделю</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+         <table class="table table-striped" style="width: 760px;">
+            <thead>
+               <tr>
+                  <th>Номер пакета</th>
+                  <th>Состав пакета</th>
+                  <th>Цена пакета&nbsp&nbsp&nbsp&nbsp&nbsp</th>
+                  <th style="width: 100px;">Выбрать</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td>Пакет 2</td>
+                  <td>Завтрак</td>
+                  <td><%= Praise2 %></td>
+                  <td>
+                     <div class=&nbsp"checkbox"> <input type="checkbox">  </div>
+                  </td>
+               </tr>
+               <tr>
+                  <td>Пакет 6</td>
+                  <td>Второй завтрак, обед</td>
+                  <td><%= Praise6 %></td>
+                  <td>
+                     <div class=&nbsp"checkbox"> <input type="checkbox">  </div>
+                  </td>
+               </tr>
+               <tr>
+                  <td>Пакет 7</td>
+                  <td>Второй завтрак</td>
+                  <td><%= Praise7 %></td>
+                  <td>
+                     <div class=&nbsp"checkbox"> <input type="checkbox">  </div>
+                  </td>
+               </tr>
+               <tr>
+                  <td>Пакет 8</td>
+                  <td>Обед</td>
+                  <td><%= Praise8 %></td>
+                  <td>
+                     <div class=&nbsp"checkbox"> <input type="checkbox">  </div>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+         <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active">
+               <a href="#">Отправить</a>
+            </li>
+            <li role="presentation">
+               <a href="#">К истории заказов</a>
+            </li>
+         </ul>
+      </div>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+      <!-- /container -->
+   </body>
+</html>
